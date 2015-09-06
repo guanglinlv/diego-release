@@ -1,5 +1,10 @@
 # NOTE
-this repo is forked from [Diego](https://github.com/cloudfoundry-incubator/diego-release) with commit `b18d81c176e287df734739405ad2cd28015f3e92` in the develop branch,actually it is final release 0.1297.0,it should be worked with [Garden-linux](https://github.com/guanglinlv/garden-linux/tree/DNetAndRootFSSave).
+this repo is forked from [Diego](https://github.com/cloudfoundry-incubator/diego-release) with commit `b18d81c176e287df734739405ad2cd28015f3e92` in the develop branch,actually it is final release 0.1297.0,it should be worked with following submodule:
+
+- [Garden](https://github.com/guanglinlv/garden/tree/DockerRootFSSave).
+- [Garden-linux](https://github.com/guanglinlv/garden-linux/tree/DNetAndRootFSSave).
+- [docker_app_lifecycle](https://github.com/guanglinlv/docker_app_lifecycle/tree/MultipleInsecureRegistry).
+- [stager](https://github.com/guanglinlv/stager/tree/MultipleInsecureRegistry).
 
 the compatible [CloudFoundry](https://github.com/cloudfoundry/cf-release) and [Bosh](https://github.com/cloudfoundry/bosh) see [diego-cf-compatibility](https://github.com/cloudfoundry-incubator/diego-cf-compatibility/blob/master/compatibility-v1.csv#L318)
 
