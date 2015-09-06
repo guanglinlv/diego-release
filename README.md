@@ -1,3 +1,10 @@
+# NOTE
+this repo is forked from [Diego](https://github.com/cloudfoundry-incubator/diego-release) with commit `b18d81c176e287df734739405ad2cd28015f3e92` in the develop branch,actually it is final release 0.1297.0,it should be worked with [Garden-linux](https://github.com/guanglinlv/garden-linux/tree/DNetAndRootFSSave).
+
+the compatible [CloudFoundry](https://github.com/cloudfoundry/cf-release) and [Bosh](https://github.com/cloudfoundry/bosh) see [diego-cf-compatibility](https://github.com/cloudfoundry-incubator/diego-cf-compatibility/blob/master/compatibility-v1.csv#L318)
+
+----
+
 # Cloud Foundry Diego [BOSH release]
 
 ----

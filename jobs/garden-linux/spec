@@ -44,3 +44,9 @@ properties:
   diego.garden-linux.insecure_docker_registry_list:
     description: "Comma-separated list of docker registries to allow connection to even if they are not secure"
 
+  diego.garden-linux.host_ifname:
+    description: "specify host physical ifinterace"
+
+  diego.garden-linux.host_brname:
+    description: "specify host bridge follow specify host ifinterace"
+

@@ -62,6 +62,9 @@ case $1 in
       <% if p("diego.stager.insecure_docker_registry") == true %>\
       -insecureDockerRegistry \
       <% end %>\
+      <% if_p("diego.stager.insecure_docker_registry_list") do |list| %> \
+      -insecureDockerRegistryList=<%= list.join(',') %> \
+      <% end %> \
       -logLevel=<%= p("diego.stager.log_level") %> \
       2>> $LOG_DIR/stager.stderr.log \
       1> >(tee -a $LOG_DIR/stager.stdout.log | logger -t vcap.stager)

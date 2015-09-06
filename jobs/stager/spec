@@ -52,3 +52,6 @@ properties:
   diego.stager.insecure_docker_registry:
     description: "Allow insecure Private Docker Registry to be used"
     default: false
+
+  diego.stager.insecure_docker_registry_list:
+    description: "Comma-separated list of docker registries to allow connection to even if they are not secure"

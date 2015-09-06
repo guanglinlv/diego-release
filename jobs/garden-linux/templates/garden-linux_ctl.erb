@@ -52,6 +52,12 @@ case $1 in
       <% if_p("diego.garden-linux.insecure_docker_registry_list") do |list| %> \
       -insecureDockerRegistryList=<%= list.join(',') %> \
       <% end %> \
+      <% if_p("diego.garden-linux.host_ifname") do |ifname| %> \
+        -hostIfname=<%= "#{ifname}" %> \
+      <% end %> \
+      <% if_p("diego.garden-linux.host_brname") do |brname| %> \
+        -hostBrname=<%= "#{brname}" %> \
+      <% end %> \
       1>>$LOG_DIR/garden-linux.stdout.log \
       2>>$LOG_DIR/garden-linux.stderr.log
 
